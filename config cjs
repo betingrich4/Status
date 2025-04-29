@@ -1,0 +1,28 @@
+export default {
+    PREFIX: ".",
+    MODE: "public",
+    AUTO_REACT: true,
+    AUTO_STATUS_REACT: "true",
+    AUTO_BIO_ENABLED: "true",
+    TIME_ZONE: "Africa/Nairobi",
+    OWNER_NUMBER: "254712345678",
+    CHANNEL_JID: "120363299029326322@newsletter",
+    CHANNEL_NAME: "Marisel",
+    
+    // Status reaction settings
+    STATUS_REACT_EMOJIS: ['❤️', '🔥', '👍', '😍', '🎉'],
+    STATUS_REACT_INTERVAL: 5000, // 5 seconds between reactions
+    
+    // Auto bio settings
+    BIO_UPDATE_INTERVAL: 60000, // 1 minute
+    BIO_TEMPLATES: [
+        "🌟 Using WhatsApp Status Bot | {time}",
+        "📅 Date: {date} | Powered by Marisel",
+        "🕒 {time} | {randomEmoji}",
+        "🚀 Connected with Status Bot | {randomEmoji}"
+    ],
+    
+    // Status viewing settings
+    STATUS_VIEW_INTERVAL: 30000, // 30 seconds
+    STATUS_VIEW_LIMIT: 20 // Max statuses to view per interval
+};
